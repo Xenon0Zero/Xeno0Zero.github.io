@@ -11,6 +11,7 @@ body {
   text-align : center;
   border : aqua 1 px solid;
   border-radius : 5px;
+  width : fit-content;
 }
 
 #xenonzero {
