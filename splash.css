@@ -1,0 +1,18 @@
+#Xe {
+	font-size : 300px;
+	width : fit-content;
+	height : 100%;
+	text-align : center;
+	matgin : auto;
+	font-style : italic;
+}
+
+#e {
+	font-size :150px;
+	width : fit-content;
+	height : 100%;
+}
+
+#sup {
+	font-size : 50px;
+}

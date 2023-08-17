@@ -1,0 +1,77 @@
+html {
+	min-height : 100%;
+	display : flex;
+}
+
+body {
+	margin : auto;
+}
+
+#cont_1 {
+	border : solid 1px purple;
+	border-radius : 25px;
+	box-shadow : purple 1px 1px 20px;
+	max-width : fit-content;
+	max-height : fit-content;
+	padding : 10px;
+	font-size : 40px;
+	text-align : center;
+}
+
+#cont_2 {
+	text-align : center;
+	border-radius : 70px;
+	padding : 5px;
+	width : fit-content;
+	height : fit-content;
+	font-style : italic;
+}
+
+#cont_3 {
+	border : solid 1px grey;
+	border-radius : 25px;
+	padding : 20px;
+	text-align : center;
+}
+
+h1 {
+	background-image : linear-gradient(60deg, white 30%, indigo 30%, crimson 1%, violet 48%, white 1%);
+	border-radius : 70px;
+	padding : 4px;
+}
+
+#xenonzero {
+	border : 1px solid rgb(100, 100, 100, 0.1);
+        border-radius : 70px;
+        background-color : white;
+        padding : 5px;
+}
+
+#zero {
+	border : solid 1px cyan;
+	border-radius : 70px;
+	padding : 1px;
+	height : fit-content;
+	text-shadow : lightblue 2px 2px 6px;
+	color : silver;
+}
+
+input#details {
+	border : solid 1px cyan;
+	border-radius : 40px;
+	width : 90%;
+	text-align : center;
+	color : orange;
+	font-size : 40px;
+}
+
+input#sign_in, input#sign_up {
+	border : solid 1px;
+	border-radius : 40px;
+	width : 90%;
+	text-align : center;
+	color : rgb(050, 255, 050);
+	background-color : white;
+	font-size : 40px;
+	border-color : rbg(050, 255, 050);
+}
