@@ -1,77 +1,160 @@
 html {
-	min-height : 100%;
-	display : grid;
+min-height : 100%;
+display : grid;
 }
 
 body {
-	margin : auto;
+max-width : 100%;
 }
 
-#cont_1 {
-	border : solid 1px purple;
-	border-radius : 15px;
-	box-shadow : purple 1px 1px 20px;
-	max-width : fit-content;
-	max-height : fit-content;
-	padding : 10px;
-	font-size : 40px;
-	text-align : center;
+#log_out:hover {
+  border-radius : 5px;
+  width : 90%;
+  border : solid 1px red;
+  background-color : rgb(255,190,190);
+  color : red;
 }
 
-#cont_2 {
-	text-align : center;
-	border-radius : 20px;
-	padding : 5px;
-	width : fit-content;
-	height : fit-content;
-	font-style : italic;
+#cont_5:hover {
+  margin : auto;
+  width : 90%;
 }
 
-#cont_3 {
-	border : solid 1px grey;
-	border-radius : 15px;
-	padding : 20px;
-	text-align : center;
-}
-
-h1 {
-	background-image : linear-gradient(60deg, white 30%, indigo 30%, crimson 1%, violet 48%, white 1%);
-	border-radius : 20px;
-	padding : 4px;
+#side_bar:hover {
+  border : goldenrod 1px solid;
+  border-radius : 5px;
+  width : 95%;
+  background-color: goldenrod;
+  color : white;
 }
 
 #xenonzero {
-	border : 1px solid rgb(100, 100, 100, 0.1);
-        border-radius : 20px;
-        background-color : white;
-        padding : 5px;
+  text-align : center;
+  border : white 1px solid;
+  border-radius : 5px;
+  box-shadow : purple 1px 1px 3px;
+  float : left;
+  font-size : 120%;
 }
 
 #zero {
-	border : solid 1px cyan;
-	border-radius : 20px;
-	padding : 1px;
-	height : fit-content;
-	text-shadow : lightblue 2px 2px 6px;
-	color : silver;
+  border : aqua 1px solid;
+  border-radius : 5px;
 }
 
-input#details {
-	border : solid 1px cyan;
-	border-radius : 20px;
-	width : 90%;
-	text-align : center;
-	color : orange;
-	font-size : 40px;
+#side_bar {
+  background-color : rgb(100,250,100);
+  border : solid 1px cyan;
+  border-radius : 5px;
+  width : 80%;
+  font-size : 100%;
 }
 
-input#sign_in, input#sign_up {
-	border : solid 1px;
-	border-radius : 20px;
-	width : 90%;
-	text-align : center;
-	color : rgb(050, 255, 050);
-	background-color : white;
-	font-size : 40px;
-	border-color : rbg(050, 255, 050);
+#cont_0 {
+  height: 90%;
+  border : 1px solid silver;
+  padding : 5px;
+}
+
+#cont_1 {
+  text-align : center;
+  border : blue 1px solid;
+  border-radius : 5px;
+  width : 95%;
+  padding : 2px;
+  box-shadow : orange 1px 1px 5px;
+  padding-left : 10px;
+}
+
+#cont_2 {
+  border : solid 1px silver;
+  text-align : center;
+  padding : 5px;
+  min-width : fit-content;
+  border-radius : 5px;
+  min-height : fit-content;
+  width : 15%;
+  position : fixed;
+  left : 10px;
+  padding-top : 8%;
+}
+
+#cont_3 {
+  padding : 10px;
+  border : solid 1px black;
+  border-radius : 5px;
+  height : 79%;
+}
+
+#cont_4 {
+  padding : 5px;
+  border : solid 1px black;
+  border-radius : 5px;
+  height : 19%;
+  font-size : 130%;
+}
+
+#cont_5 {
+  margin : auto;
+  width : 80%;
+}
+
+#cont_7 {
+  width : 80%;
+  position : fixed;
+  right : 20px;
+  border : 1px solid silver;
+  border-radius : 5px;
+  height : 84%;
+  padding : 3px;
+  text-align : center;
+}
+
+#frame_1 {
+  width : 99%;
+  height : 100%;
+  border : solid 1px;
+  border-radius : 5px;
+}
+
+img#profile_pic {
+  width : 40px;
+  height : 40px;
+  border : solid 1px goldenrod;
+  border-radius : 50%;
+}
+
+button#profile {
+  border : solid 1px cyan;
+  border-radius : 5px;
+  width : 100%;
+  background-color : white;
+}
+
+#log_out {
+  border-radius : 5px;
+  width : 80%;
+  border : solid 1px red;
+  background-color : white;
+  color : red;
+}
+
+#search_bar {
+  border : solid 1px blue;
+  border-radius : 10px;
+  height : 18px;
+}
+
+#search {
+  float : right;
+  width : fit-content;
+}
+
+#nav_bar {
+  border-radius : 10px;
+  fit-content;
+  padding : 2px;
+  border : solid 1px cyan;
+  background-color : white;
+  color : cyan;
 }
