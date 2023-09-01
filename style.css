@@ -1,6 +1,6 @@
 html {
 	min-height : 100%;
-	display : flex;
+	display : grid;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
 
 #cont_1 {
 	border : solid 1px purple;
-	border-radius : 25px;
+	border-radius : 15px;
 	box-shadow : purple 1px 1px 20px;
 	max-width : fit-content;
 	max-height : fit-content;
@@ -20,7 +20,7 @@ body {
 
 #cont_2 {
 	text-align : center;
-	border-radius : 70px;
+	border-radius : 20px;
 	padding : 5px;
 	width : fit-content;
 	height : fit-content;
@@ -29,27 +29,27 @@ body {
 
 #cont_3 {
 	border : solid 1px grey;
-	border-radius : 25px;
+	border-radius : 15px;
 	padding : 20px;
 	text-align : center;
 }
 
 h1 {
 	background-image : linear-gradient(60deg, white 30%, indigo 30%, crimson 1%, violet 48%, white 1%);
-	border-radius : 70px;
+	border-radius : 20px;
 	padding : 4px;
 }
 
 #xenonzero {
 	border : 1px solid rgb(100, 100, 100, 0.1);
-        border-radius : 70px;
+        border-radius : 20px;
         background-color : white;
         padding : 5px;
 }
 
 #zero {
 	border : solid 1px cyan;
-	border-radius : 70px;
+	border-radius : 20px;
 	padding : 1px;
 	height : fit-content;
 	text-shadow : lightblue 2px 2px 6px;
@@ -58,7 +58,7 @@ h1 {
 
 input#details {
 	border : solid 1px cyan;
-	border-radius : 40px;
+	border-radius : 20px;
 	width : 90%;
 	text-align : center;
 	color : orange;
@@ -67,7 +67,7 @@ input#details {
 
 input#sign_in, input#sign_up {
 	border : solid 1px;
-	border-radius : 40px;
+	border-radius : 20px;
 	width : 90%;
 	text-align : center;
 	color : rgb(050, 255, 050);
