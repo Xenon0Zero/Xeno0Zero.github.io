@@ -7,6 +7,12 @@ body {
 max-width : 100%;
 }
 
+#nav_bar:hover {
+  border-color : goldenrod;
+  color : white;
+  background-color : goldenrod;
+}
+
 #log_out:hover {
   border-radius : 5px;
   width : 90%;
@@ -28,18 +34,40 @@ max-width : 100%;
   color : white;
 }
 
+button:active {
+  font-size : 75%;
+}
+
+#h1 {
+	background-image : linear-gradient(60deg, white 30%, indigo 30%, crimson 1%, violet 48%, white 1%);
+	border-radius : 5px;
+	padding : 3px;
+	float : left;
+}
+
 #xenonzero {
-  text-align : center;
-  border : white 1px solid;
-  border-radius : 5px;
-  box-shadow : purple 1px 1px 3px;
-  float : left;
-  font-size : 100%;
+	border : 1px solid rgb(100, 100, 100, 0.1);
+        border-radius : 20px;
+        background-color : white;
+        padding : 1px;
+}
+
+#box_2 {
+	text-align : center;
+	border-radius : 5px;
+	padding : 5px;
+	width : fit-content;
+	height : fit-content;
+	font-style : italic;
 }
 
 #zero {
-  border : aqua 1px solid;
-  border-radius : 5px;
+	border : solid 1px cyan;
+	border-radius : 20px;
+	padding : 1px;
+	height : fit-content;
+	text-shadow : lightblue 2px 2px 6px;
+	color : silver;
 }
 
 #side_bar {
@@ -47,18 +75,18 @@ max-width : 100%;
   border : solid 1px cyan;
   border-radius : 5px;
   width : 80%;
-  font-size : 90%;
 }
 
 #cont_0 {
   height: 90%;
-  border : 1px solid silver;
-  padding : 5px;
+  padding : 1px;
+  position : fixed;
+  bottom : 0px;
 }
 
 #cont_1 {
   text-align : center;
-  border : blue 1px solid;
+  border : blue 1px;
   border-radius : 5px;
   width : 95%;
   padding : 2px;
@@ -67,9 +95,9 @@ max-width : 100%;
 }
 
 #cont_2 {
-  border : solid 1px silver;
+  border : 1px;
   text-align : center;
-  padding : 5px;
+  padding : 1px;
   min-width : fit-content;
   border-radius : 5px;
   min-height : fit-content;
@@ -86,11 +114,10 @@ max-width : 100%;
 }
 
 #cont_4 {
-  padding : 5px;
+  padding : 1px;
   border : solid 1px black;
   border-radius : 5px;
   height : 19%;
-  font-size : 120%;
 }
 
 #cont_5 {
@@ -102,7 +129,7 @@ max-width : 100%;
   width : 80%;
   position : fixed;
   right : 20px;
-  border : 1px solid silver;
+  border : 1px;
   border-radius : 5px;
   height : 84%;
   padding : 3px;
